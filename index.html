@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bangladesh</title>
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="imgs/icon.png">
+</head>
+
+<body>
+  <nav>
+    <a class="nav-left-container" href="index.html">
+      <img src="imgs/flag.png" alt="Flag of Bangladesh">
+      <h2>BANGLADESH</h2>
+    </a>
+
+    <!-- Nav Links -->
+    <ul class="nav-right-container">
+      <li>
+        <a href="#">
+          <img class="nav-icon" src="imgs/home-solid.svg" alt="Icon">
+          <p>Home</p>
+        </a>
+      </li>
+      <li>
+        <a href="culture.html">
+          <img class="nav-icon" src="imgs/theater-masks-solid.svg" alt="Icon">
+          <p>Culture</p>
+        </a>
+      </li>
+      <li>
+        <a href="traditions.html">
+          <img class="nav-icon" src="imgs/hand-holding-heart-solid.svg" alt="Icon">
+          <p>Traditions</p>
+        </a>
+      </li>
+      <li>
+        <a href="slang.html">
+          <img class="nav-icon" src="imgs/comments-solid.svg" alt="Icon">
+          <p>Slang</p>
+        </a>
+      </li>
+      <li>
+        <a href="sources.html">
+          <img class="nav-icon" src="imgs/book-solid.svg" alt="Icon">
+          <p>Sources</p>
+        </a>
+      </li>
+      <li>
+        <button style="padding: 0 5px;" onclick="toggleDark()" href="#">
+          <img id="colorModeIcon" class="nav-icon exclude" src="imgs/moon-solid.svg" alt="Dark Mode">
+          <p id="colorModeText">Dark Mode</p>
+        </button>
+      </li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="main-container">
+      <h1>Welcome to Bangladesh</h1>
+
+      <div class="slideshow-container">
+        <div class="gallery-img-container animated">
+          <img class="gallery-img" src="imgs/landscape0.jpg">
+        </div>
+
+        <div class="gallery-img-container animated">
+          <img class="gallery-img" src="imgs/people.jpg">
+        </div>
+
+        <div class="gallery-img-container animated">
+          <img class="gallery-img" src="imgs/landscape1.jpg">
+        </div>
+
+        <div class="gallery-img-container animated">
+          <img class="gallery-img" src="imgs/map-zoomed.png">
+        </div>
+      </div>
+      <br>
+
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot active" onclick="showSlide(0)"></span>
+        <span class="dot" onclick="showSlide(1)"></span>
+        <span class="dot" onclick="showSlide(2)"></span>
+        <span class="dot" onclick="showSlide(3)"></span>
+      </div>
+
+      <p class="about-info">Want full citations? Just visit the
+        <i style="color: #f42a21;"><a href="sources.html">sources</a></i> tab.
+      </p>
+
+      <h2></h2>
+
+      <h2>Independence</h2>
+      <div class="side-img-container">
+        <img src="imgs/independence_day.jpg" alt="Bangladesh Crowd and Flag">
+        <div class="img-caption">
+          <p>Independence Day Celebration</p>
+          <a class="img-caption-source"
+            href="https://www.thedailystar.net/editorial/news/48-years-independent-nation-1720255" target="_blank">The
+            Daily Star</a>
+        </div>
+      </div>
+      <h4>The War</h4>
+      <p>
+        Bangladesh gained their independence after the Bangladesh Liberation War of 1971. The war was fought between
+        the <b>26th of March</b><sup><a href="sources.html">1</a></sup> and the <b>16th of December.</b><sup><a
+            href="sources.html">2</a></sup>
+      </p>
+
+      <h4>26th of March</h4>
+      <p>
+        The Proclamation of Bangladeshi Independence was created on the 26th of March 1971<sup><a
+            href="sources.html">1</a></sup> and marks the official
+        <b>Independence Day of Bangladesh</b>.
+      </p>
+
+      <h4>16th of December</h4>
+      <p>
+        The 16th of December is recogniserd as <b>Victory Day</b> in Bangladesh.<sup><a
+            href="sources.html">3</a></sup> This day marks the day
+        Bangladesh won the war for independence and is celebrated as a national holiday.
+      </p>
+
+      <div class="wide-img-container">
+        <img src="imgs/victory-day.jpg" alt="Victory Day Celebration">
+        <div class="img-caption">
+          <p>Victory Day celebration</p>
+          <a class="img-caption-source"
+            href="https://www.thedailystar.net/country/victory-day-celebrations-photos-1505866" target="_blank">The
+            Daily Star</a>
+        </div>
+      </div>
+
+    </div>
+    <footer>
+      <h4>Last updated: 5 June 2020</h4>
+      <h2 class="author-header">Authors:</h2>
+      <ul class="author-list">
+        <li>Linus Dinesjö</li>
+        <li class="vertical-bar"></li>
+        <li>Joel Diberius</li>
+      </ul>
+      <p style="margin-bottom: 1rem;">SVG Icons from <a href="https://fontawesome.com/"><b>fontawesome.com</b></a></p>
+    </footer>
+    <div class="empty"></div>
+  </main>
+  <script src="js/app.js"></script>
+</body>
+
+</html>

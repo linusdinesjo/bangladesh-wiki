@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Traditions</title>
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="imgs/icon.png">
+</head>
+
+<body>
+  <nav>
+    <a class="nav-left-container" href="index.html">
+      <img src="imgs/flag.png" alt="Flag of Bangladesh">
+      <h2>BANGLADESH</h2>
+    </a>
+
+    <!-- Nav Links -->
+    <ul class="nav-right-container">
+      <li>
+        <a href="index.html">
+          <img class="nav-icon" src="imgs/home-solid.svg" alt="Icon">
+          <p>Home</p>
+        </a>
+      </li>
+      <li>
+        <a href="culture.html">
+          <img class="nav-icon" src="imgs/theater-masks-solid.svg" alt="Icon">
+          <p>Culture</p>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img class="nav-icon" src="imgs/hand-holding-heart-solid.svg" alt="Icon">
+          <p>Traditions</p>
+        </a>
+      </li>
+      <li>
+        <a href="slang.html">
+          <img class="nav-icon" src="imgs/comments-solid.svg" alt="Icon">
+          <p>Slang</p>
+        </a>
+      </li>
+      <li>
+        <a href="sources.html">
+          <img class="nav-icon" src="imgs/book-solid.svg" alt="Icon">
+          <p>Sources</p>
+        </a>
+      </li>
+      <li>
+        <button style="padding: 0 5px;" onclick="toggleDark()" href="#">
+          <img id="colorModeIcon" class="nav-icon exclude" src="imgs/moon-solid.svg" alt="Dark Mode">
+          <p id="colorModeText">Dark Mode</p>
+        </button>
+      </li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="main-container">
+      <h1>Traditions</h1>
+
+      <div class="slideshow-container">
+        <div class="gallery-img-container animated">
+          <img class="gallery-img" src="imgs/tradition0.jpg">
+        </div>
+
+        <div class="gallery-img-container animated">
+          <img class="gallery-img" src="imgs/tradition1.jpg">
+        </div>
+
+        <div class="gallery-img-container animated">
+          <img class="gallery-img" src="imgs/tradition2.jpg">
+        </div>
+      </div>
+      <br>
+
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot active" onclick="showSlide(0)"></span>
+        <span class="dot" onclick="showSlide(1)"></span>
+        <span class="dot" onclick="showSlide(2)"></span>
+      </div>
+
+      <p class="about-info">Want full citations? Just visit the
+        <i style="color: #f42a21;"><a href="sources.html">sources</a></i> tab.
+      </p>
+
+
+      <h2>Religious Traditions</h2>
+      <p>
+        The main 2 religions in Bangladesh are Islam and Hinduism.<sup><a href="sources.html">4</a></sup>
+      </p>
+      <h4>Muslims</h4>
+      <p>
+        Muslims annually celebrate Ramadan. The celebration lasts for a month and consists of spiritual reflection, self
+        improvement and worship.<sup><a href="sources.html">8</a></sup>
+      </p>
+      <h4>Hindus</h4>
+      <p>
+        Bangladeshi Hindus on the other hand, mainly celebrate Durga Puja,<sup><a href="sources.html">9</a></sup> the
+        victory of goddess Durga over the demon king
+        Mahishasura. During 10 days the goddess is worshipped in festivals around the nation.<sup><a
+            href="sources.html">10</a></sup>
+      </p>
+
+      <h2>National Festivities</h2>
+      <h4>Pohela Boishakh</h4>
+      <div class="side-img-container">
+        <img src="imgs/tradition3.jpg" alt="Pohela Boishakh Celebration">
+        <div class="img-caption">
+          <p>Pohela Boishakh Celebration</p>
+        </div>
+      </div>
+      <p>
+        Pohela Boishakh is the Bangladesh new year's day and it is the most celebrated national festivity in
+        Bangladesh. It consists of family gathering, traditional song and dance, etc.<sup><a
+            href="sources.html">11</a></sup>
+      </p>
+      <h4>Ekushey February</h4>
+      <p>
+        Ekushey February is Bangladesh celebrating the International Mother Language Day, an annually celebrated day
+        promoting awareness of multilingualism. It is celebrated on the 21st of February and pays respect to
+        Bangladeshis who protected their mother tongue with their lives in the year 1952. People attended rallies and
+        several persons died while countless were injured when police opened fire on the rallies. This historical event
+        is said to be a stepping stone for the Bangladesh liberation.<sup><a href="sources.html">12</a></sup> Many
+        celebrities such as singers and political
+        leaders engage in celebrating this holiday.<sup><a href="sources.html">13</a></sup>
+      </p>
+
+    </div>
+    <footer>
+      <h4>Last updated: 5 June 2020</h4>
+      <h2 class="author-header">Author:</h2>
+      <ul class="author-list">
+        <li>Linus Dinesjö</li>
+      </ul>
+      <p style="margin-bottom: 1rem;">SVG Icons from <a href="https://fontawesome.com/"><b>fontawesome.com</b></a></p>
+    </footer>
+    <div class="empty"></div>
+  </main>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
